@@ -1,0 +1,68 @@
+html{
+  font-size: 16px;
+}
+
+body {
+  background-color: #373246;
+  color: #373246;
+  background-image: url('assets/pinkRoses.jpg');
+  background-attachment: fixed;
+  background-position: 100%;
+  background-size: cover;
+  font-family: 'Cardo', serif;
+}
+
+.wrapper{
+  position: relative;
+  padding: 5em;
+}
+header{
+  display: block;
+}
+.main{
+  position: relative;
+  width: 25em;
+  margin: auto;
+  padding: 2em 2em 2em 2em;
+  background: #F6E3D7;
+  border-radius: .5em;
+  text-align: center;
+}
+.avatar img{
+  margin: 0 auto;
+  border-radius: 100%;
+  height: auto;
+  /* height: 200px;
+  width: 200px; */
+}
+.avatar{
+  position: relative;
+  margin-bottom:1.5em;
+  border-radius: 100%;
+}
+
+.social-icons {
+  color: black;
+  margin-top: 4rem;
+}
+.social-icons i{
+  border: 1px solid #373246;
+  color: #373246;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  /* margin: 0 0.3rem; */
+  padding: 1rem;
+}
+a{
+  /* color: black; */
+  text-decoration: none;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: transparent;
+}
+i:hover{
+  color: #F8858F;
+}
